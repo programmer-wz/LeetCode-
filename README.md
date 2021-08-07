@@ -1,5 +1,5 @@
 # LeetCode
-LeetCode题解（正在更新中）
+LeetCode题解（正在更新中...）
 ### 217存在重复元素
 #### 1. 暴力破解
 ```class Solution {
@@ -39,6 +39,18 @@ public:
             nums[0]=nums[0]^nums[i];
         }
         return nums[0];
+    }
+};
+```
+### 169 多数元素
+#### 排序后，出现次数大于n/2的元素，一定在中间位置上
+```
+class Solution {
+public:
+    int majorityElement(vector<int>& nums) {
+        sort(nums.begin(),nums.end());
+        int length=nums.size();
+        return nums[length/2];
     }
 };
 ```
