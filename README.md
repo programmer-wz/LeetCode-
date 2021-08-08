@@ -1,7 +1,7 @@
 # LeetCode
 LeetCode题解（正在更新中...）
 ### 217存在重复元素
-#### 1. 暴力破解
+1. 暴力破解
 ```class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
@@ -15,7 +15,7 @@ public:
     }
 };
 ```
-#### 2. 哈希表
+2. 哈希表
 ```class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
@@ -31,7 +31,7 @@ public:
 };
 ```
 ### 136 只出现一次的数字
-#### 按位异或
+1. 按位异或
 ```class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -43,7 +43,7 @@ public:
 };
 ```
 ### 169 多数元素
-#### 排序后，出现次数大于n/2的元素，一定在中间位置上
+1. 排序后，出现次数大于n/2的元素，一定在中间位置上
 ```
 class Solution {
 public:
@@ -55,7 +55,7 @@ public:
 };
 ```
 ### 617 合并二叉树
-#### 递归法（前序遍历）
+1. 递归法（前序遍历）
 ```class Solution {
 public:
     TreeNode* mergeTrees(TreeNode* root1, TreeNode* root2) {
@@ -68,7 +68,7 @@ public:
     }
 };
 ```
-### 迭代法
+2. 迭代法
 ```class Solution {
 public:
     TreeNode* mergeTrees(TreeNode* root1, TreeNode* root2) {
@@ -103,7 +103,7 @@ public:
 };
 ```
 ### 700 二叉搜索树中的搜素
-### 1. 递归法
+1. 递归法
 ```class Solution {
 public:
     TreeNode* searchBST(TreeNode* root, int val) {
@@ -122,7 +122,7 @@ public:
     }
 };
 ```
-### 2. 迭代法
+2. 迭代法
 ```class Solution {
 public:
     TreeNode* searchBST(TreeNode* root, int val) {
@@ -140,7 +140,7 @@ public:
 };
 ```
 ### 98 验证二叉搜索树
-#### 1. 递归
+1. 递归
 ```class Solution {
 private:
     vector<int> vec;
@@ -167,7 +167,7 @@ public:
     }
 };
 ```
-#### 2. 迭代法
+2. 迭代法
 ```class Solution {
 public:
     bool isValidBST(TreeNode* root) {
